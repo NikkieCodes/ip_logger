@@ -2,7 +2,7 @@ import socket
 
 s = socket.socket()
 
-host = "shitboxnikkie.us.to"
+host = "127.0.0.1"
 port = 4999
 
 print(f"Connecting to {host}:{port}")
