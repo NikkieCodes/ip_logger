@@ -18,7 +18,7 @@ while True:
     print(f"[+] INCOMING CONNECTION FROM: {address}")
     print("Saving IP....")
 
-    file="/home/nikkie/Documents/IP_logger/logs.txt"
+    file="folder/folder/logs.txt"
 
     with open(file, 'a') as f:
         f.write(str(address) + str("\n"))
